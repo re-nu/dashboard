@@ -11,6 +11,7 @@
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+<<<<<<< HEAD
     "formik": "^2.2.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -20,6 +21,14 @@
     "styled-components": "^5.3.3",
     "web-vitals": "^1.1.2",
     "yup": "^0.32.11"
+=======
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "recharts": "^2.1.6",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^1.1.2"
+>>>>>>> 95445314c2a6a22a4b4678de1f012252d948d312
   },
   "scripts": {
     "start": "react-scripts start",

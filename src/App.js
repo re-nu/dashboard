@@ -3,6 +3,7 @@ import { useState,useEffect } from 'react';
 import './App.css';
 import { Products } from './Products';
 import AppBar from '@mui/material/AppBar';
+<<<<<<< HEAD
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
@@ -16,6 +17,8 @@ import { Delete } from './Delete';
 import AddBoxIcon from '@mui/icons-material/AddBox';
 import { Add } from './Add';
 import { Home } from './Home';
+=======
+>>>>>>> 95445314c2a6a22a4b4678de1f012252d948d312
 
 
 
@@ -30,6 +33,7 @@ function App() {
   }
 
   useEffect(getData,[]);
+<<<<<<< HEAD
 
   const history=useHistory();
   return (
@@ -81,6 +85,11 @@ function App() {
       </Route>
     </Switch>
       
+=======
+  return (
+    <div className="App">
+      <Products/>
+>>>>>>> 95445314c2a6a22a4b4678de1f012252d948d312
     </div>
   );
 }

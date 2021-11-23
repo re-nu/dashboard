@@ -2,6 +2,7 @@
   text-align: center;
 }
 .all-products{
+<<<<<<< HEAD
   display:grid;
   grid-template-columns: auto auto auto;
   gap:1.5rem;
@@ -26,3 +27,12 @@
   width: 100%;
   object-fit: cover;
 }
+=======
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2rem;
+  padding: 1.5rem;
+}
+
+
+>>>>>>> 95445314c2a6a22a4b4678de1f012252d948d312

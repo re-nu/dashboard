@@ -1,15 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+<<<<<<< HEAD
 import { BrowserRouter as Router } from 'react-router-dom';
+=======
+>>>>>>> 95445314c2a6a22a4b4678de1f012252d948d312
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+<<<<<<< HEAD
     <Router>
        <App />
     </Router>
+=======
+    <App />
+>>>>>>> 95445314c2a6a22a4b4678de1f012252d948d312
   </React.StrictMode>,
   document.getElementById('root')
 );
